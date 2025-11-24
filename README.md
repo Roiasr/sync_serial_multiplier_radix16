@@ -54,4 +54,5 @@ It tests multiple values of `A` and `B` and verifies:
 - Timing of `shift_enable`, `load_clear`, `finish`, and `done`
 
 📌 Simulation waveform and synthesis images have been added to the `/simulation_and_synthesis/` folder.
+
 📌 All VHDL source files have been added to the `/codes/` folder.
