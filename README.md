@@ -20,6 +20,7 @@ By using this method, the number of cycles required is reduced by x4 compared to
 ### Control Unit 
 Implements a FSM with four states:
 IDLE → LOAD → EXEC → DONE
+
 **Responsibilities:**
 - Waits for `start = '1'` signal to begin the operation.
 - Asserts `load_clear = '1'` to initialize registers.
@@ -30,6 +31,7 @@ This unit controls the **timing and sequencing** of the entire multiplier.
 
 ### Execution Unit
 Performs the actual multiplication using the **shift-and-add method** and **Radix-16** approach.
+
 **Operation:**
 1. Inputs `A` and `B` are stored inside internal registers.
 2. Every clock cycle, **4 bits of `B` are processed** (Radix-16).
