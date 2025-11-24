@@ -1,5 +1,5 @@
 # sync_serial_multiplier_radix16
-This project implements a **synchronous serial multiplier** using the **Radix-16 (shift-and-add)** method in **VHDL**.  
+This project implements a **synchronous serial multiplier** using the **Radix-16** method in **VHDL**.  
 The design includes:
 - **Control Unit** (FSM-based)
 - **Execution Unit**
